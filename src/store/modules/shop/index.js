@@ -18,7 +18,7 @@ const actions = {
     const token = context.rootState.auth.token;
     axios
       .get(
-        `https://vue-3-shop-backend-9c689-default-rtdb.europe-west1.firebasedatabase.app/products.json?auth=${token}`
+        `(URL)`
       )
       .then((response) => {
         const productsDO = [];
@@ -44,7 +44,7 @@ const actions = {
     const token = context.rootState.auth.token;
     axios
       .post(
-        `https://vue-3-shop-backend-9c689-default-rtdb.europe-west1.firebasedatabase.app/products.json?auth=${token}`,
+        `(URL)`,
         productItem
       )
       .then((response) => {
