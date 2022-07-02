@@ -18,10 +18,10 @@ const actions = {
     let url = "";
     if (payload.mode === "signin") {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDIXRRMUcbVypRWBX_Yg_b7AJIwa7m2lzA";
+        "(KEY)";
     } else if (payload.mode === "signup") {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDIXRRMUcbVypRWBX_Yg_b7AJIwa7m2lzA";
+        "(KEY)";
     } else {
       return;
     }
