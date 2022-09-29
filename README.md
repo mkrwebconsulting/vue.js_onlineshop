@@ -1,9 +1,9 @@
 # Vue.js shop
-Created with vue.js version 3 and vue router
-Backend by Firebase
+Created with vue.js version 3 and vue router.
+Backend by Firebase.
 Webapp hosted at AWS Amplify.
 
-Check the end result here:
+Visit the webapp here:
 
 https://dev3397.d1gizbklncalni.amplifyapp.com/
 
